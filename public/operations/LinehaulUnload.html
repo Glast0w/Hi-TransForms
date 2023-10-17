@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Linehaul Unload Form</title>
+    <link rel="stylesheet" href="/css/LinehaulUnload.css">
+</head>
+<body>
+<div>
+    <h1>Linehaul Unload Form</h1>
+    <form action="YOUR_SERVER_URL_HERE" method="POST">
+        <div class="container-flex">
+            <div class="name">
+                <h2>Your Name</h2>
+                <input type="text" name="name" placeholder="Enter your name">
+            </div>
+            <div class="Yourlocation">
+                <h2>Your Location</h2>
+                <select name="location">
+                    <option value="Adelaide">Adelaide</option>
+                    <option value="Brisbane">Brisbane</option>
+                    <option value="Sydney">Sydney</option>
+                    <option value="Broken Hill">Broken Hill</option>
+                    <option value="Perth">Perth</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="arrivingManifestNumber">
+            <h2>Arriving Manifest Number</h2>
+            <input type="text" name="manifestNumber" placeholder="Enter Manifest Number">
+        </div>
+        <div class="issuesWithLoading">
+            <h2>Where there any Issues with the arriving load?</h2>
+            <select name="issuesWithLoading">
+                <option value="No">No</option>
+                <option value="Yes">Yes</option>
+            </select>
+        </div>
+        <div class="IssuesWithLoadingDetails">
+            <h2>Details of Issues</h2>
+            <input type="text" name="issuesWithLoadingDetails" placeholder="Enter Details">
+        </div>
+        <div class="photosUpload">
+            <h2>Trailer photo 1</h2>
+            <input type="file" accept="image/*" name="photosUpload1">
+            <h2>Trailer photo 2</h2>
+            <input type="file" accept="image/*" name="photosUpload2">
+            <h2>Trailer photo 3</h2>
+            <input type="file" accept="image/*" name="photosUpload3">
+            <h2>Trailer photo 4</h2>
+            <input type="file" accept="image/*" name="photosUpload4">
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

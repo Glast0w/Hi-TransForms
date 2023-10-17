@@ -1,0 +1,47 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.heading {
+    background-color: darkblue;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form.links {
+    background-color: darkblue;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.form.links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: black;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.form.links a:hover {
+    background-color: white;
+    color: darkblue;
+}
