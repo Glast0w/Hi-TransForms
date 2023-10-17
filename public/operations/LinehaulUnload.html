@@ -3,7 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <title>Linehaul Unload Form</title>
-    <link rel="stylesheet" href="../../css/linehaulUnload.css">
+  <!---  <link rel="stylesheet" href="../../css/linehaulUnload.css"> -->
+
+    <style>
+        /* Base Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightblue;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 10;
+        }
+
+        form {
+            background-color: darkblue;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+            width: 150%;
+            max-width: 800px;
+        }
+
+        h1, h2 {
+            margin-top: 0;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+
+        input[type="text"],
+        input[type="file"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: none;
+            background-color: black;
+            color: white;
+        }
+
+        input[name="issuesWithLoadingDetails"] {
+            height: 80px;
+            font-size: 18px;
+        }
+
+        button {
+            padding: 10px 15px;
+            background-color: white;
+            color: darkblue;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        /* Flexbox to align "Your Name" and "Your Location" side by side */
+        .container-flex {
+            display: flex;
+            justify-content: space-between;
+            gap: 20%;  /* Provides spacing between the flex items */
+        }
+
+        div.name, div.Yourlocation {
+            flex: 1;  /* Allows both elements to take equal width */
+        }
+
+    </style>
 </head>
 <body>
 <div>
